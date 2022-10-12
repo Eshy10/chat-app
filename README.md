@@ -26,10 +26,12 @@
 ### Start project
 
 ```bash
-yarn create next-app --example https://github.com/trpc/trpc --example-path examples/next-prisma-starter trpc-prisma-starter
-cd trpc-prisma-starter
-yarn
-yarn dx
+git clone
+cd chat-appp
+run npm install
+run npx prisma generate 
+run npx prisma db push 
+run yarn dev
 ```
 
 ### Commands
