@@ -1,0 +1,19 @@
+.chatRoom {
+    width: 100%;
+  }
+  
+  .chatRoom__wrapper {
+    padding-left: 20rem;
+    overflow: scroll;
+  }
+  
+  .chatRoom__header {
+    border-bottom: 1px solid lightgray;
+    padding-left: 20rem;
+    padding-bottom: 1rem;
+    position: fixed;
+    z-index: 1;
+    background: white;
+    width: 100%;
+    padding-top: 1.3rem;
+  }

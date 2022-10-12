@@ -1,0 +1,29 @@
+.chatList {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 300px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 10; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: rgb(18, 108, 225); /* Black */
+    color: #fff;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+}
+
+.chatList h2 {
+    border-bottom: 1px solid #fff;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+
+.chatList div {
+    margin-top: 2.5rem;
+    padding-left: 1rem;
+}
+
+.chatList__title {
+    color: lightgrey;
+    font-size: 18px;
+    margin-bottom: 1rem;
+}

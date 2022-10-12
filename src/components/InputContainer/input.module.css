@@ -1,0 +1,44 @@
+  
+  .inputWrapper {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0ecec;
+    padding: .5rem;
+    padding-left: 20rem;
+  }
+  
+  .inputWrapper input {
+    border: none;
+    background-color: #f0ecec;
+    width: 70%;
+    height: 100%;
+    padding: 0.5rem;
+    border-radius: 5px;
+    height: 100%;
+    outline: none;
+  }
+  
+  .inputWrapper__action {
+      display: flex;
+      align-items: center;
+      margin-left: 1rem;
+  }
+
+  .inputWrapper__action label {
+    cursor: pointer;
+  }
+  
+  .inputWrapper button {
+    border: none;
+    background-color: #03edf4d9;
+    color: white;
+    width: 50px;
+    padding: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 1rem;
+  }

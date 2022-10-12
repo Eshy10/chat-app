@@ -1,0 +1,23 @@
+.messageWrapper {
+    margin-top: 2rem;
+    margin-bottom: 10rem;
+  }
+  
+  .messageWrapper__content {
+    margin-left: 1rem;
+  }
+  
+  .messageWrapper__content p {
+    margin-bottom: 0.5rem;
+  }
+  
+  .messageWrapper__content p:first-child,
+  .messageWrapper__content p:last-child {
+    color: #6c6969;
+    font-size: 14px;
+  }
+
+  .messageWrapper__content p:last-child {
+    color: #6c6969;
+    font-size: 12px;
+  }
