@@ -27,6 +27,6 @@
     "**/*.tsx",
     "./*.js",
     "./src/**/*.js"
-  ],
+, "src/components/PreviewContainer/preview.module.css"  ],
   "exclude": ["node_modules"]
 }

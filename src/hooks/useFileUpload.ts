@@ -5,7 +5,6 @@ import { useState, ChangeEvent } from 'react';
 export const useFileUpload = () => {
   const [file, setFile] = useState<File | null>(null);
   const [uploadingStatus, setUploadingStatus] = useState<boolean>(false);
-  const [uploadedFile, setUploadedFile] = useState<string>('');
 
   const uploadFile = async () => {
     setUploadingStatus(true);
@@ -28,11 +27,10 @@ export const useFileUpload = () => {
 
     if (newData && file) {
       setUploadingStatus(false);
-      setUploadedFile(process.env.NEXT_PUBLIC_BUCKET_URL + file.name);
       toast.success('Uploaded Succesfuly...', {
         position: toast.POSITION.BOTTOM_LEFT,
       });
-      setFile(null);
+      return newData ? process.env.NEXT_PUBLIC_BUCKET_URL + file?.name : null;
     }
   };
 
@@ -44,9 +42,9 @@ export const useFileUpload = () => {
 
   return {
     handleUploadFileChange,
-    uploadedFile,
     uploadingStatus,
     uploadFile,
-    setUploadedFile,
+    file,
+    setFile,
   };
 };
