@@ -1,9 +1,7 @@
-import React from 'react'
+import React from 'react';
 
 const ChatRoomHeader = () => {
-  return (
-    <div>ChatRoomHeader</div>
-  )
-}
+  return <div>ChatRoomHeader</div>;
+};
 
-export default ChatRoomHeader
+export default ChatRoomHeader;
