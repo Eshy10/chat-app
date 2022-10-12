@@ -3,6 +3,5 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
-  "/api/trpc/[trpc]": "pages/api/trpc/[trpc].js",
-  "/api/upload": "pages/api/upload.js"
+  "/api/trpc/[trpc]": "pages/api/trpc/[trpc].js"
 }

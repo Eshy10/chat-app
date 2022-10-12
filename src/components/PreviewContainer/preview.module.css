@@ -1,8 +1,8 @@
 .preview {
   width: 40%;
   height: 6rem;
-  position: relative;
-  bottom: 90px;
+  position: absolute;
+  bottom: 50px;
   border: 1px solid lightgrey;
   border-top: none;
   border-bottom: none;
