@@ -30,7 +30,9 @@ export const useFileUpload = () => {
       toast.success('Uploaded Succesfuly...', {
         position: toast.POSITION.BOTTOM_LEFT,
       });
-      return newData ? process.env.NEXT_PUBLIC_BUCKET_URL + file?.name : null;
+      return newData
+        ? `${process.env.NEXT_PUBLIC_BUCKET_URL}${file.name}`
+        : null;
     }
   };
 

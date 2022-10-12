@@ -60,7 +60,13 @@ const ChatInput = () => {
           }
         }}
       >
-        <input title="text" id="text" name="text" placeholder="Enter Message" />
+        <input
+          title="text"
+          id="text"
+          name="text"
+          placeholder="Enter Message"
+          required
+        />
         <div className={styles['inputWrapper__action']}>
           <label htmlFor="upload-button">
             <Image src={'/paper-clip.svg'} alt="user" width={20} height={20} />
@@ -80,10 +86,6 @@ const ChatInput = () => {
             Send
           </button>
         </div>
-        {addMessage.error &&
-          toast.error(addMessage.error.message, {
-            position: toast.POSITION.BOTTOM_LEFT,
-          })}
       </form>
     </>
   );
